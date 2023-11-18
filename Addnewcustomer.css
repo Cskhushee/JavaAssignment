@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .customer-details {
+    float: left; 
+    width: 250px;
+    margin-top: 20px;
+    text-decoration: double;
+  }
+  
+  .customer-details p {
+    margin: 5px 0;
+    font-weight: bold;
+  }
+  
+  .customer-details span {
+    font-weight: normal;
+  }
+  .add-customer-form {
+    /* float: left;  */
+    width: 15px;
+    margin-top: 10px;
+  }

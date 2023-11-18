@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer List</title>
+  <link rel="stylesheet" href="Customerlist.css">
+</head>
+<body>
+  <h1>Customer List</h1>
+
+  <div class="add-customer-button">
+    <button onclick="location.href='Addnewcustomer.html'">Add New Customer</button>
+  </div>
+
+  <table class="customer-table">
+<thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Address</th>
+      <th>City</th>
+      <th>State</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Action</th>
+    </tr>
+</thead>
+      <td>Jane</td>
+      <td>Doe</td>
+      <td>Elvnu Street</td>
+      <td>Delhi</td>
+      <td>Delhi</td>
+      <td>sam@gmail.com</td>
+      <td>12345678</td>
+      <td>
+        <button onclick="updateCustomer(customerId)">Update</button>
+        <button onclick="deleteCustomer(customerId)">Delete</button>
+      </td>
+    </tr>
+  </table>
+
+  <script src="Customerlist.js" type="text/javascript"></script>
+</body>
+</html>
